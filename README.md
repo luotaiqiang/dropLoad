@@ -9,7 +9,7 @@
   $("#zhyx").loadDrop({  
    >>    $element:$("#zhyx"),  
    >>  	 loadDownFn:function (me) {  
-   >>>     	 loadAjax(me) // 这里是自己调用的函数  
+   >>>   loadAjax(me) // 这里是自己调用的函数  
    >>    }  
   })  
   
