@@ -15,20 +15,20 @@
   
   function loadAjax(me){  
    >  $.ajax({  
-   > 	url: "http://g.cn",  
-   >  dataType: "json",  
+   > 	 url: "http://g.cn",  
+   >   dataType: "json",  
    >  success:function(data){  
-   > 	// 滚动解锁  
-   >	 me.unLock()  
-   >  // 对相关数据操作  
-   >	 ...   
-   >  ...   
-   >  ...  
-   >	 // 加载数据之后需要重置  
-   >	 me.resetload()  
+   > 	 // 滚动解锁  
+   >	  me.unLock()  
+   >   // 对相关数据操作  
+   >	  ...   
+   >   ...   
+   >   ...  
+   >	  // 加载数据之后需要重置  
+   >	    me.resetload()  
    >	 },  
    >	 error:function(){  
-   >	 // 加载数据之后需要重置  
-   >  me.resetload()  
+   >	   // 加载数据之后需要重置  
+   >    me.resetload()  
    >	 }  
   > })  
