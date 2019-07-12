@@ -5,12 +5,12 @@
 1.引入jquery或者zepto。(支持模块化加载)  
 2.引入dropLoad.js  
  
-#调用方法 如下  
+# 调用方法 如下  
   $("#zhyx").loadDrop({  
-   >  $element:$("#zhyx"),  
-   >	 loadDownFn:function (me) {  
-   >	 loadAjax(me) // 这里是自己调用的函数  
-   >	}  
+   >>    $element:$("#zhyx"),  
+   >>  	 loadDownFn:function (me) {  
+   >>>     	 loadAjax(me) // 这里是自己调用的函数  
+   >>    }  
   })  
   
   function loadAjax(me){  
