@@ -7,17 +7,17 @@
  
 #调用方法 如下  
   $("#zhyx").loadDrop({  
-   $element:$("#zhyx"),  
-   loadDownFn:function (me) {  
-   loadAjax(me) // 这里是自己调用的函数  
-   }  
+   > $element:$("#zhyx"),  
+   > loadDownFn:function (me) {  
+   > loadAjax(me) // 这里是自己调用的函数  
+   > }  
   })  
   
   function loadAjax(me){  
-   $.ajax({  
-     >url: "http://g.cn",  
-      dataType: "json",  
-      success:function(data){  
+   > $.ajax({  
+     >  url: "http://g.cn",  
+      >  dataType: "json",  
+      >  success:function(data){  
       // 滚动解锁  
       me.unLock()  
       // 对相关数据操作  
