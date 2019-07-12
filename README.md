@@ -7,10 +7,10 @@
  
 # 调用方法 如下  
   $("#zhyx").loadDrop({  
-   >>    $element:$("#zhyx"),  
-   >>  	 loadDownFn:function (me) {  
-   >>>   loadAjax(me) // 这里是自己调用的函数  
-   >>    }  
+   >  $element:$("#zhyx"),  
+   >  loadDownFn:function (me) {  
+   >>    loadAjax(me) // 这里是自己调用的函数  
+   >  }  
   })  
   
   function loadAjax(me){  
@@ -30,5 +30,5 @@
    >	 error:function(){  
    >>    // 加载数据之后需要重置  
    >>    me.resetload()  
-   >	 }  
+   }  
   })  
