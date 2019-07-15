@@ -6,8 +6,8 @@
 2.引入dropLoad.js  
  
 # 调用方法 如下  
-  $("#zhyx").loadDrop({  
-   >  $element:$("#zhyx"),  
+  $("选择元素").loadDrop({  
+   >  $element:$("选择元素"),  
    >  loadDownFn:function (me) {  
    >>    loadAjax(me) // 这里是自己调用的函数  
    >  }  
